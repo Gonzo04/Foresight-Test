@@ -1,0 +1,48 @@
+{
+  "name": "foresight-watch-novelty-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts false",
+    "test": "vitest run",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@algolia/client-search": "5.9.0",
+    "@hono/node-server": "1.13.7",
+    "ably": "2.8.0",
+    "bcryptjs": "2.4.3",
+    "better-sqlite3": "11.3.0",
+    "bullmq": "5.12.13",
+    "date-fns": "4.1.0",
+    "dayjs": "1.11.13",
+    "got": "11.8.6",
+    "hono": "4.6.10",
+    "ioredis": "5.4.1",
+    "jose": "5.9.3",
+    "jsonwebtoken": "7.4.3",
+    "knex": "3.1.0",
+    "nanoid": "3.3.7",
+    "nconf": "0.12.1",
+    "noveltylab-platform-integrations": "1.1.5",
+    "objection": "3.1.5",
+    "p-retry": "6.2.0",
+    "postmark": "4.0.5",
+    "resend": "4.0.0",
+    "srht": "0.2.0",
+    "superjson": "2.2.1",
+    "undici": "6.20.1",
+    "uuid": "7.0.3",
+    "valibot": "0.42.1",
+    "ws": "8.18.0",
+    "xmlbuilder2": "3.1.1"
+  },
+  "devDependencies": {
+    "rimraf": "6.0.1",
+    "ts-node": "10.9.2",
+    "tsup": "8.3.0",
+    "typescript": "5.6.3",
+    "vitest": "2.1.3"
+  }
+}
